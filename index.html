@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" type="imagex/png" href="img/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Decel Burguers</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <p class="decel">DECEL <span style="color: white;">BURGUERS</span></p>
+        </div>
+        <nav>
+            <a href="#menu">MENU</a>
+            <a href="#about-us">ABOUT</a>
+            <a href="#loc">LOCATIONS</a>
+            <a href="#" class="order">ORDER NOW</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <p class="est">EST. 2024</p>
+            <h1>TASTE THE <span class="orange-text">DECEL</span> <span class="gradient-text">DIFFERENCE</span></h1>
+            <p class="slogan">Handcrafted burgers, smash-style patties, and secret sauces that will make your taste buds
+                dance. Welcome to the new standard.</p>
+            <div class="cta-container">
+                <a href="#menu" class="view">View Menu &rarr;</a>
+            </div>
+            <div class="pimg">
+                <img class="hamburguer" src="img/dec_burguer.png" alt="img_hamburguer">
+            </div>
+        </section>
+
+        <section class="menu" id="menu">
+            <div class="menu-header">
+                <p class="pmenu">OUR MENU</p>
+                <div class="underline"></div>
+            </div>
+
+            <div class="menu-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="burgers">Burgers</button>
+                <button class="filter-btn" data-filter="dessert">Dessert</button>
+                <button class="filter-btn" data-filter="drinks">Drinks</button>
+            </div>
+
+            <div class="menu-grid">
+                <div class="menu-card category-burgers">
+                    <div class="card-image">
+                        <img src="img/Hamburguer 1.png" alt="The Decel Classic">
+                        <span class="badge-popular">POPULAR</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title-row">
+                            <h3>The Decel Classic</h3>
+                            <span class="price">€12.99</span>
+                        </div>
+                        <p class="card-desc">Two smashed patties, American cheese, lettuce, tomato, house pickles, and
+                            Decel sauce.</p>
+                    </div>
+                </div>
+
+                <div class="menu-card category-burgers">
+                    <div class="card-image">
+                        <img src="img/Hamburguer 2.png" alt="Smokey Bacon King">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title-row">
+                            <h3>Smokey Bacon King</h3>
+                            <span class="price">€15.49</span>
+                        </div>
+                        <p class="card-desc">Crispy smoked bacon, cheddar cheese, onion rings, BBQ sauce, and a 1/2lb
+                            beef patty.</p>
+                    </div>
+                </div>
+
+                <div class="menu-card category-drinks">
+                    <div class="card-image">
+                        <img src="img/Drink 1.png" alt="Crazy Drink">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title-row">
+                            <h3>Crazy Drink</h3>
+                            <span class="price">€5.99</span>
+                        </div>
+                        <p class="card-desc">This is the craziest drink you'll see today! Made with red fruits, orange,
+                            and an unknown beverage.</p>
+                    </div>
+                </div>
+
+                <div class="menu-card category-drinks">
+                    <div class="card-image">
+                        <img src="img/Drink 2.png" alt="Funny Drink">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title-row">
+                            <h3>Funny Drink</h3>
+                            <span class="price">€7.99</span>
+                        </div>
+                        <p class="card-desc">After drinking this beverage, you will be happier than before!</p>
+                    </div>
+                </div>
+
+                <div class="menu-card category-burgers">
+                    <div class="card-image">
+                        <img src="img/Hamburguer 3.png" alt="Burguer Leitão">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title-row">
+                            <h3>Burguer Leitão</h3>
+                            <span class="price">€18.99</span>
+                        </div>
+                        <p class="card-desc">The biggest hamburger ever! Handcrafted with premium selection.</p>
+                    </div>
+                </div>
+
+                <div class="menu-card category-dessert">
+                    <div class="card-image">
+                        <img src="img/Sorvete Cristiano Ronaldo.png" alt="Siiu ice cream">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title-row">
+                            <h3>Siiu ice cream</h3>
+                            <span class="price">€18.99</span>
+                        </div>
+                        <p class="card-desc">For those who accept nothing less than victory. 🥇 Introducing the dessert
+                            worthy of a champion.</p>
+                    </div>
+                </div>
+
+                <div class="menu-card category-dessert">
+                    <div class="card-image">
+                        <img src="img/Bolo Neymar Especialista.png" alt="bolo">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title-row">
+                            <h3>Cake NJ</h3>
+                            <span class="price">€22.99</span>
+                        </div>
+                        <p class="card-desc">Brazil's signature cake. This year we'll be six-time champions!</p>
+                    </div>
+                </div>
+
+                <div class="menu-card category-dessert">
+                    <div class="card-image">
+                        <img src="img/Sobremesa Gourmet.png" alt="sobremesa">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title-row">
+                            <h3>Golden Cake</h3>
+                            <span class="price">€11.99</span>
+                        </div>
+                        <p class="card-desc">Have you ever tried a golden dessert? You don't know what you're missing!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="about" id="about-us">
+        <div class="about-img"> <img class="simg" src="img/cozinha.png" alt="img_cozinha"> </div>
+        <div class="about-content">
+            <p class="about-tit"> THE ART OF THE <span style="color: rgb(255, 128, 0);">SMASH</span> </p>
+            <p class="about-p"> At Decel, we don't just make burgers. We engineer experiences. Founded in 2024, our
+                mission was simple: perfect the smash burger. </p>
+            <p class="about-p"> We source only the finest grass-fed beef, ground fresh daily. Our buns are baked locally
+                every morning, and our sauces? That's a secret we'll take to the grave. </p>
+            <div class="about-features">
+                <div class="feature"> <img style="width: 80px;" src="img/fogo.png" alt="desenho_fogo">
+                    <p class="feature-title">Flame Grilled</p>
+                    <p class="feature-sub">Perfect heat</p>
+                </div>
+                <div class="feature"> <img style="width: 80px;" src="img/chapeu.png" alt="chapeu_chefe">
+                    <p class="feature-title">Master Chefs</p>
+                    <p class="feature-sub">Expertly crafted</p>
+                </div>
+                <div class="feature"> <img style="width: 80px;" src="img/talher.png" alt="talher">
+                    <p class="feature-title">Fresh Daily</p>
+                    <p class="feature-sub">Local ingredients</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="loc" id="loc">
+        <h2 class="loc-tit">FIND US</h2>
+        <p class="loc-p">Come visit our flagship location.</p>
+
+        <div class="loc-card">
+            <div class="loc-image-container">
+                <img src="img/Cristiano Ronaldo Limpeza Restaurante.png" alt="Interior do restaurante"
+                    class="loc-main-img">
+                <div class="map-pin">
+                    <div class="pin-icon">📍</div>
+                </div>
+            </div>
+
+            <div class="loc-info">
+                <h3 class="info-main-title">Downtown HQ</h3>
+                <div class="info-divider"></div>
+
+                <div class="info-item">
+                    <div class="info-icon">📍</div>
+                    <div>
+                        <p class="info-label">Address</p>
+                        <p class="info-text">Av. Ronaldo Melhor que o Pessi<br>Nº 964</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon">🕒</div>
+                    <div>
+                        <p class="info-label">Hours</p>
+                        <p class="info-text">Mon - Sun: 11:00 AM - 11:00 PM<br>Fri - Sat: 11:00 AM - 1:00 AM</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon">📞</div>
+                    <div>
+                        <p class="info-label">Contact</p>
+                        <p class="info-text">(+351) 922 192 100<br>ronaldoisthebest@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-column branding">
+                <h2 class="footer-logo">DECEL <span class="orange-text">BURGERS</span></h2>
+                <p class="footer-tagline">Redefining the burger experience one smash at a time. Quality ingredients,
+                    unforgettable taste.</p>
+            </div>
+
+            <div class="footer-column">
+                <h3 class="footer-title">LINKS</h3>
+                <nav class="footer-nav">
+                    <a href="#">Home</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#about-us">About Us</a>
+                    <a href="#loc">Locations</a>
+                </nav>
+            </div>
+
+            <div class="footer-column">
+                <h3 class="footer-title">FOLLOW US</h3>
+                <div class="social-icons">
+                    <a href="#" class="icon-circle"><span>📷</span></a> <a href="#"
+                        class="icon-circle"><span>f</span></a>
+                    <a href="#" class="icon-circle"><span>🐦</span></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="bottom-content">
+                <p>&copy; 2026 Decel Burgers. All rights reserved.</p>
+                <div class="legal-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
