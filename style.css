@@ -11,7 +11,6 @@ body {
     overflow-x: hidden;
 }
 
-/* Header */
 header {
     display: flex;
     align-items: center;
@@ -36,7 +35,9 @@ header nav a {
     transition: 0.3s;
 }
 
-header nav a:hover { color: white; }
+header nav a:hover {
+    color: white;
+}
 
 .order {
     padding: 10px 20px;
@@ -46,7 +47,6 @@ header nav a:hover { color: white; }
     background-color: rgb(255, 128, 0);
 }
 
-/* Hero Section */
 .hero {
     padding: 90px 70px;
     position: relative;
@@ -72,7 +72,9 @@ h1 {
     animation: subir 1.2s ease-out forwards;
 }
 
-.orange-text { color: rgb(255, 128, 0); }
+.orange-text {
+    color: rgb(255, 128, 0);
+}
 
 .gradient-text {
     background: linear-gradient(to right, #c87100, #c84300);
@@ -99,7 +101,9 @@ h1 {
     transition: 0.3s;
 }
 
-.view:hover { transform: translateY(-5px); }
+.view:hover {
+    transform: translateY(-5px);
+}
 
 .pimg {
     position: absolute;
@@ -114,7 +118,6 @@ h1 {
     animation: subir 1.5s ease-out forwards;
 }
 
-/* Menu Section */
 .menu {
     text-align: center;
     padding: 80px 20px;
@@ -154,16 +157,16 @@ h1 {
     transition: 0.3s;
 }
 
-.filter-btn.active, .filter-btn:hover {
+.filter-btn.active,
+.filter-btn:hover {
     background-color: #ff8000;
     color: white;
 }
 
-/* Grid System - ALINHAMENTO CORRIGIDO */
 .menu-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 colunas fixas */
-    gap: 50px 30px; /* 50px de espaço vertical (entre cima e baixo) */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px 30px;
     max-width: 1100px;
     margin: 0 auto;
 }
@@ -179,7 +182,9 @@ h1 {
     transition: 0.3s;
 }
 
-.menu-card:hover { transform: translateY(-10px); }
+.menu-card:hover {
+    transform: translateY(-10px);
+}
 
 .card-image {
     position: relative;
@@ -204,7 +209,10 @@ h1 {
     font-family: 'Oswald';
 }
 
-.card-content { padding: 25px; flex-grow: 1; }
+.card-content {
+    padding: 25px;
+    flex-grow: 1;
+}
 
 .card-title-row {
     display: flex;
@@ -213,33 +221,44 @@ h1 {
     margin-bottom: 10px;
 }
 
-.card-title-row h3 { font-family: 'Oswald'; font-size: 22px; }
+.card-title-row h3 {
+    font-family: 'Oswald';
+    font-size: 22px;
+}
 
-.price { color: #ff8000; font-weight: bold; font-size: 18px; }
+.price {
+    color: #ff8000;
+    font-weight: bold;
+    font-size: 18px;
+}
 
-.card-desc { color: #888; font-size: 14px; line-height: 1.5; }
+.card-desc {
+    color: #888;
+    font-size: 14px;
+    line-height: 1.5;
+}
 
-.about{
+.about {
     display: flex;
     gap: 60px;
     padding: 60px;
     align-items: center;
 }
 
-.about-img img{
+.about-img img {
     width: 600px;
     border-radius: 30px;
     margin-left: 30px;
     animation: aparecerE 1.5s ease-out forwards;
 }
 
-.about-content{
+.about-content {
     max-width: 400px;
     margin-left: 200px;
     animation: aparecerD 1.5s ease-out forwards;
 }
 
-.about-tit{
+.about-tit {
     font-family: Oswald;
     font-weight: 900;
     font-size: 60px;
@@ -249,20 +268,20 @@ h1 {
     margin-bottom: 20px;
 }
 
-.about-p{
+.about-p {
     color: #ccc;
     font-family: Roboto;
     margin-bottom: 15px;
     line-height: 1.6;
 }
 
-.about-features{
+.about-features {
     display: flex;
     gap: 20px;
     margin-top: 30px;
 }
 
-.feature{
+.feature {
     background-color: #1c1c1c;
     padding: 20px;
     border-radius: 20px;
@@ -270,11 +289,11 @@ h1 {
     flex: 1;
 }
 
-.img_feature{
+.img_feature {
     width: 90px;
 }
 
-.feature-title{
+.feature-title {
     color: white;
     font-weight: 700;
     font-family: Oswald;
@@ -282,13 +301,13 @@ h1 {
     padding: 10px 0px 10px 20px;
 }
 
-.feature-sub{
+.feature-sub {
     color: gray;
     font-family: Roboto;
     font-size: 11px;
 }
 
-.loc-tit{
+.loc-tit {
     text-align: center;
     font-family: Oswald;
     font-weight: 900;
@@ -298,32 +317,29 @@ h1 {
     letter-spacing: 2px;
 }
 
-.loc-p{
+.loc-p {
     text-align: center;
     color: #a1a1a1;
     font-family: Roboto;
     margin-bottom: 30px;
 }
 
-/* Container Principal */
 .loc {
     background: #111;
     padding: 80px 20px;
     text-align: center;
 }
 
-/* O Card Arredondado */
 .loc-card {
     display: flex;
     max-width: 900px;
     margin: 40px auto;
-    background-color: #1a1a1a; /* Cinza bem escuro igual da imagem */
+    background-color: #1a1a1a;
     border-radius: 24px;
-    overflow: hidden; /* Corta a imagem nas bordas arredondadas */
+    overflow: hidden;
     text-align: left;
 }
 
-/* Lado Esquerdo - Imagem */
 .loc-image-container {
     flex: 1;
     position: relative;
@@ -334,10 +350,9 @@ h1 {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    filter: brightness(0.6); /* Deixa a imagem escura como no design */
+    filter: brightness(0.6);
 }
 
-/* O Pin no meio da imagem */
 .map-pin {
     position: absolute;
     top: 50%;
@@ -354,7 +369,6 @@ h1 {
     font-size: 24px;
 }
 
-/* Lado Direito - Texto */
 .loc-info {
     flex: 1;
     padding: 50px;
@@ -377,7 +391,6 @@ h1 {
     margin-bottom: 30px;
 }
 
-/* Itens de informação (Ícone + Texto) */
 .info-item {
     display: flex;
     gap: 15px;
@@ -386,7 +399,7 @@ h1 {
 }
 
 .info-icon {
-    background: #262626; /* Fundo do ícone */
+    background: #262626;
     padding: 10px;
     border-radius: 12px;
     color: rgb(255, 128, 0);
@@ -410,9 +423,8 @@ h1 {
 }
 
 
-/* Footer */
 .main-footer {
-    background-color: #0a0a0a; /* Fundo preto profundo */
+    background-color: #0a0a0a;
     color: #888;
     padding-top: 60px;
     font-family: 'Roboto', sans-serif;
@@ -422,20 +434,20 @@ h1 {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between; /* Mantém o branding na esquerda e redes na direita */
+    justify-content: space-between;
     padding: 0 40px 60px 40px;
     gap: 40px;
 }
 
 .footer-column {
-    flex: 1; /* Faz todas as colunas terem o mesmo tamanho base */
+    flex: 1;
 }
 
 .footer-column:nth-child(2) {
-    text-align: center; /* Centraliza o título e os links */
+    text-align: center;
+    /* Centraliza o título e os links */
 }
 
-/* Tipografia do Branding */
 .footer-logo {
     font-family: 'Oswald', sans-serif;
     font-weight: 900;
@@ -451,12 +463,11 @@ h1 {
 
 .footer-tagline {
     line-height: 1.6;
-    max-width: 300px; /* Reduzindo a largura para forçar a quebra em 2 linhas */
+    max-width: 300px;
     font-size: 14px;
     color: #888;
 }
 
-/* Títulos e Links */
 .footer-title {
     font-family: 'Oswald', sans-serif;
     color: white;
@@ -470,11 +481,11 @@ h1 {
     padding-left: 20px;
     flex-direction: column;
     gap: 12px;
-    align-items: center; /* Centraliza os links dentro da coluna */
+    align-items: center;
 }
 
 .footer-column:nth-child(3) {
-    text-align: right; /* Alinha o título "FOLLOW US" à direita */
+    text-align: right;
 }
 
 .footer-nav a {
@@ -488,11 +499,10 @@ h1 {
     color: white;
 }
 
-/* Ícones Sociais */
 .social-icons {
     display: flex;
     gap: 15px;
-    justify-content: flex-end; /* Empurra os ícones para o final da direita */
+    justify-content: flex-end;
 }
 
 .icon-circle {
@@ -513,7 +523,6 @@ h1 {
     background-color: #ff8000;
 }
 
-/* Linha Inferior */
 .footer-bottom {
     border-top: 1px solid #1a1a1a;
     padding: 30px 40px;
@@ -543,14 +552,22 @@ h1 {
     color: white;
 }
 
-/* Animations */
+
 @keyframes subir {
-    from { transform: translateY(50px); opacity: 0; }
-    to { transform: translateY(0); opacity: 1; }
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 
 @media (max-width: 768px) {
+
     /* Header e Navegação */
     header {
         flex-direction: column;
@@ -590,7 +607,7 @@ h1 {
     .pimg {
         position: static;
         margin-top: 40px;
-        display: block; /* Garante que a imagem apareça no mobile se desejar */
+        display: block;
     }
 
     .hamburguer {
@@ -599,7 +616,6 @@ h1 {
         transform: rotate(0deg);
     }
 
-    /* Menu Section */
     .pmenu {
         font-size: 40px;
     }
@@ -615,11 +631,10 @@ h1 {
     }
 
     .menu-grid {
-        grid-template-columns: 1fr; /* Cards em coluna única */
+        grid-template-columns: 1fr;
         gap: 30px;
     }
 
-    /* About Section */
     .about {
         flex-direction: column;
         padding: 40px 20px;
